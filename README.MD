@@ -4,6 +4,8 @@
 
 **Project Overview:**  (￣o￣) . z Z
 
+# Click Each Tiles : See Magic はしら
+
 The **Hashiras Expanding Gallery** is an interactive web application showcasing characters from *Demon Slayer*. Each character features stunning visuals and detailed profiles, allowing fans to explore their abilities and backgrounds.
 
 **Key Features:**  ^_~
