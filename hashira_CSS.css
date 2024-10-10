@@ -22,7 +22,7 @@
     height: 500px;
     margin: 10px;
     border-radius: 30px;
-    background: url("../Hashira Expanding Gallery/hashiras/giyu tomioka.jpeg");
+    background: url("hashiras/giyu tomioka.jpeg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -30,57 +30,57 @@
     filter: grayscale(100%);
 }
 .img-box:nth-child(2){
-    background: url("../Hashira Expanding Gallery/hashiras/Gyomei Himejima.jpg");
+    background: url("hashiras/Gyomei Himejima.jpg");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(3){
-    background: url("../Hashira Expanding Gallery/hashiras/muchiro Tokito.jpeg");
+    background: url("hashiras/muchiro Tokito.jpeg");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(4){
-    background: url("../Hashira Expanding Gallery/hashiras/Obanai Iguro.jpg");
+    background: url("hashiras/Obanai Iguro.jpg");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(5){
-    background: url("../Hashira Expanding Gallery/hashiras/Sanemi Shinazugawa.jpeg");
+    background: url("hashiras/Sanemi Shinazugawa.jpeg");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(6){
-    background: url("../Hashira Expanding Gallery/hashiras/Tengen Uzui’.jpeg");
+    background: url("hashiras/Tengen Uzui’.jpeg");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(7){
-    background: url("../Hashira Expanding Gallery/hashiras/☆ Rengoku Kyoujoro.jpeg");
+    background: url("hashiras/☆ Rengoku Kyoujoro.jpeg");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(8){
-    background: url("../Hashira Expanding Gallery/hashiras/𝐒𝐡𝐢𝐧𝐨𝐛𝐮 𝐊𝐨𝐜𝐡𝐨💜🔮🦋.jpeg");
+    background: url("hashiras/𝐒𝐡𝐢𝐧𝐨𝐛𝐮 𝐊𝐨𝐜𝐡𝐨💜🔮🦋.jpeg");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(9){
-    background: url("../Hashira Expanding Gallery/hashiras/233992.jpg");
+    background: url("hashiras/233992.jpg");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(10){
-    background: url("../Hashira Expanding Gallery/hashiras/Tanjiro.jpeg");
+    background: url("hashiras/Tanjiro.jpeg");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(11){
-    background: url("../Hashira Expanding Gallery/hashiras/Inozuke.jpeg");
+    background: url("hashiras/Inozuke.jpeg");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(12){
-    background: url("../Hashira Expanding Gallery/hashiras/Zenitsu.jpeg");
+    background: url("hashiras/Zenitsu.jpeg");
     background-size: cover;
     background-position: center;
 }
