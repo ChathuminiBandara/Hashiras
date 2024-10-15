@@ -6,9 +6,9 @@
 **Project Overview:**  (￣o￣) . z Z
 
 # Slider Coaster : New Feature はしら
-![Hashiras Expanding Gallery](previewImgs/Preview2.png)
-![Hashiras Expanding Gallery](previewImgs/Preview3.png)
-![Hashiras Expanding Gallery](previewImgs/Preview4.png)
+<img alt="Hashiras Expanding Gallery" src="previewImgs/Preview2.png"/>
+<img alt="Hashiras Expanding Gallery" src="previewImgs/Preview3.png"/>
+<img alt="Hashiras Expanding Gallery" src="previewImgs/Preview4.png"/>
 
 
 # Click Each Tiles : See Magic はしら
