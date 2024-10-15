@@ -160,8 +160,8 @@ body{
 }
 .banner .slider{
     position: absolute;
-    width: 200px;
-    height: 250px;
+    width: 150px;
+    height: 200px;
     top: 10%;
     left: calc(50% - 100px);
     transform-style: preserve-3d;
@@ -171,7 +171,7 @@ body{
 }
 @keyframes autoRun {
     from{
-        transform: perspective(1000px) rotateX(-13deg) rotateY(0deg);
+        transform: perspective(1000px) rotateX(-10deg) rotateY(0deg);
     }to{
              transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
          }
@@ -184,10 +184,11 @@ body{
             translateZ(550px);
 }
 .banner .slider .item img{
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 90%;
     border-radius: 10px;
-    object-fit: contain;
+    background-size: cover;
+    background-position: center;
     transition: ease-in-out 0.5s;
     filter: grayscale(100%) blur(5px);
 }

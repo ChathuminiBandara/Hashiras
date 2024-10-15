@@ -1,8 +1,15 @@
 # Hashiras Expanding Gallery
 
-![Hashiras Expanding Gallery](Preview.png)
+![Hashiras Expanding Gallery](previewImgs/Preview.png)
+
 
 **Project Overview:**  (￣o￣) . z Z
+
+# Slider Coaster : New Feature はしら
+![Hashiras Expanding Gallery](previewImgs/Preview2.png)
+![Hashiras Expanding Gallery](previewImgs/Preview3.png)
+![Hashiras Expanding Gallery](previewImgs/Preview4.png)
+
 
 # Click Each Tiles : See Magic はしら
 
