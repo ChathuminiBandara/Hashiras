@@ -26,8 +26,8 @@ The **Hashiras Expanding Gallery** is an interactive web application showcasing 
 - MindBlowing Design for easy Demon Slayer fans.
 
 **Technologies Used:**   (～￣▽￣)～
-- HTML, CSS, JavaScript
-- [Framework/Library Used] (e.g., React, Vue, etc.)
+- HTML, CSS Only
+
 
 **Setup Instructions:**    []~(￣▽￣)~*
 1. Clone the repository.
