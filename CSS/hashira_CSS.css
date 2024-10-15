@@ -1,0 +1,281 @@
+@import url('https://fonts.cdnfonts.com/css/ica-rubik-black');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-box{
+    width: 80px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 30px;
+    background: url("../assets/hashiras/giyu tomioka.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: width 0.5s;
+    filter: grayscale(100%);
+}
+.img-box:nth-child(2){
+    background: url("../assets/hashiras/Gyomei Himejima.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(3){
+    background: url("../assets/hashiras/muchiro Tokito.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(4){
+    background: url("../assets/hashiras/Obanai Iguro.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(5){
+    background: url("../assets/hashiras/Sanemi Shinazugawa.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(6){
+    background: url("../assets/hashiras/Tengen Uzui’.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(7){
+    background: url("../assets/hashiras/☆ Rengoku Kyoujoro.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(8){
+    background: url("../assets/hashiras/𝐒𝐡𝐢𝐧𝐨𝐛𝐮 𝐊𝐨𝐜𝐡𝐨💜🔮🦋.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(9){
+    background: url("../assets/hashiras/233992.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(10){
+    background: url("../assets/hashiras/Tanjiro.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(11){
+    background: url("../assets/hashiras/Inozuke.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(12){
+    background: url("../assets/hashiras/Zenitsu.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box:nth-child(1):hover{
+    box-shadow: 5px 5px 10px rgb(88, 145, 204);
+}
+.img-box:nth-child(2):hover{
+    box-shadow: 5px 5px 10px rgb(163, 37, 39);
+}
+.img-box:nth-child(3):hover{
+    box-shadow: 5px 5px 10px rgb(1, 113, 96);
+}
+.img-box:nth-child(4):hover{
+    box-shadow: 5px 5px 10px rgb(81, 85, 81);
+}
+.img-box:nth-child(5):hover{
+    box-shadow: 5px 5px 10px rgb(29, 43, 46);
+}
+.img-box:nth-child(6):hover{
+    box-shadow: 5px 5px 10px rgb(104, 159, 200);
+}
+.img-box:nth-child(7):hover{
+    box-shadow: 5px 5px 10px rgba(249, 160, 49, 0.64);
+}
+.img-box:nth-child(8):hover{
+    box-shadow: 5px 5px 10px rgb(79, 75, 206);
+}
+.img-box:nth-child(9):hover{
+    box-shadow: 5px 5px 10px rgb(144, 30, 132);
+}
+.img-box:nth-child(10):hover{
+    box-shadow: 5px 5px 10px rgb(49, 233, 173);
+}
+.img-box:nth-child(11):hover{
+    box-shadow: 5px 5px 10px rgb(47, 112, 179);
+}
+.img-box:nth-child(12):hover{
+    box-shadow: 5px 5px 10px rgba(255, 164, 0, 0.44);
+}
+
+
+.img-box h3{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+.img-box:hover{
+    width: 300px;
+    cursor: pointer;
+    border-radius: 10px;
+    filter: none;
+}
+.img-box:hover h3{
+    opacity: 1;
+    bottom: 25px;
+}
+
+/*------*/
+.Card-ring{
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.banner .slider{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    top: 10%;
+    left: calc(50% - 100px);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    animation: autoRun 20s linear infinite;
+    z-index: 2;
+}
+@keyframes autoRun {
+    from{
+        transform: perspective(1000px) rotateX(-13deg) rotateY(0deg);
+    }to{
+             transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
+         }
+}
+.banner .slider .item{
+    position: absolute;
+    inset: 0 0 0 0;
+    transform:
+            rotateY(calc( (var(--position) - 1 ) * (360 / var(--quantity)) * 1deg ))
+            translateZ(550px);
+}
+.banner .slider .item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+    transition: ease-in-out 0.5s;
+    filter: grayscale(100%) blur(5px);
+}
+.banner .slider .item img:hover {
+    transform: scale(1.3);
+    filter: none;
+
+}
+.banner .content{
+    color: white;
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(1400px, 100vw);
+    height: max-content;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+
+}
+.banner .content h1{
+    font-family: 'ICA Rubrik';
+    font-size: 5rem;
+    line-height: 1em;
+    background: linear-gradient(45deg, #035c5a, #78c5c2, #04383b, #011c1f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.43),   /* First layer of glow */
+    0 0 20px rgba(0, 0, 0, 0),   /* Second layer of glow */
+    0 0 30px rgba(255, 143, 0, 0);
+}
+.banner .content h1::after {
+    position: absolute;
+    inset: 0 0 0 0 ;
+    content: attr(data-content);
+    z-index: 2;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+.banner .content .author{
+    font-family: Poppins;
+    text-align: right;
+    max-width: 200px;
+}
+.banner .content h2{
+    font-size: 3em;
+}
+.banner .content .model{
+    background-image: url("/assets/hashiras/muzan.png");
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    bottom: 27%;
+    left: 0;
+    background-size: auto 130%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: 1;
+    overflow: hidden;
+}
+.banner .content .model::before {
+    content: "";
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120%;
+    height: 120%;
+    background: radial-gradient(rgb(150, 184, 207), rgba(255, 255, 255, 0) 70%);
+    border-radius: 50%;
+    opacity: 0.6;
+    animation: shine 3s infinite;
+    z-index: -1;
+}
+
+@keyframes shine {
+    0% {
+        transform: translate(-50%, -50%) scale(0.2);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(0.9);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(0.2);
+    }
+}
