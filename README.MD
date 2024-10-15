@@ -7,8 +7,14 @@
 
 # Slider Coaster : New Feature はしら
 ![Hashira Slider 1](previewImgs/preview2.png)
+
+**Project Overview:**  []~(￣▽￣)~*
+
+
 ![Hashira Slider 1](previewImgs/preview3.png)
-![Hashira Slider 1](previewImgs/preview4.png)
+
+**Project Overview:**  φ(゜▽゜*)♪
+
 
 
 # Click Each Tiles : See Magic はしら
